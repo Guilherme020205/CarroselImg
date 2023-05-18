@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+        background-color: rgb(255, 255, 255);
+ 
+}
+
+.carrossel{
+
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 350px;
+    width: 350px;
+}
+
+.container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.img_fantasmas{
+    object-fit: cover;
+    height: 350px;
+    width: 350px;
+}
